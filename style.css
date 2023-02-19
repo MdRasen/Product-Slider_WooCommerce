@@ -10,3 +10,80 @@
 }
 
 /* Global CSS End */
+
+/* Main Container Start */
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 30px 45px;
+}
+
+.slider {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.slider .product {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+
+.slider .product img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.slider .product .product-info {
+    padding: 20px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: sans-serif;
+}
+
+.slider .product .product-info .price {
+    font-size: 24px;
+}
+
+.slider .product .product-info button {
+    margin: 20px 0;
+    width: 100%;
+    background: rgb(230, 10, 65);
+    border: none;
+    outline: none;
+    color: white;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.arrow {
+    /* width: 100; */
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 80%;
+}
+
+.arrow button {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+    border: 1px solid grey;
+    background-color: rgb(230, 10, 65);
+    color: white;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+/* Main Container End */
